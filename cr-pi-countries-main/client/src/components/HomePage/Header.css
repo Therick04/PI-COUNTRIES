@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.SearchBar label {
+    position: absolute;
+    pointer-events: none;
+    top: 11px;
+    left: 560px
+}
+
+.SearchBar input {
+    width: 230px;
+    height: 30px;
+}
+
+.SearchBar button {
+    margin-left: 10px;
+}
+
+.list {
+    position: absolute;
+    top: 40px;
+    left: 535px;
+}
+
+.list ul {
+    list-style: none;
+    height: 100px;
+    overflow: auto;
+}
+
+.list li {
+    width: 200px;
+    margin-bottom: 2px;
+    background-color: aliceblue;
+}
+
+.list li:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,18 @@
+.crd img{
+    height: 90px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+.crd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(75, 83, 39);
+    font-size: 25px;
+    color: white;
+    height: 250px;
+    justify-content: flex-end;
+}

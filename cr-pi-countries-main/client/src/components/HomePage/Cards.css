@@ -1,0 +1,27 @@
+.card{
+    margin: auto;
+    margin-left: 60px;
+    margin-top: 95px;
+    display: grid;
+    grid-template-columns: repeat(5,220px);
+    gap: 40px;
+}
+
+.order{
+    position: absolute;
+}
+
+.order{
+    left: 90%;
+}
+
+.contints{
+    margin-left: 40px;
+}
+
+.pagination {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
